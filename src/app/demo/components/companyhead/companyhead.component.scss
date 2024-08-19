@@ -1,0 +1,35 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+  }
+  .divider{
+    height: 500px;
+  }
+  .profile-upload-container {
+    display: flex;
+    flex-direction: row;
+    // align-items: right;   
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc;
+  }
+  
+  .upload-button {
+    position: absolute;
+    bottom: 10px;
+    left: 100%;
+    transform: translateX(-100%);
+  }
